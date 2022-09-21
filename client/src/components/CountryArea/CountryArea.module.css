@@ -1,0 +1,19 @@
+.countryArea {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0fr;
+}
+
+.pagination{
+  grid-row: 2 / 3;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%,18.5em), 1fr));
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1.875em;
+  align-items: center;
+  justify-items: center;
+  grid-row: 1 / 2;
+}

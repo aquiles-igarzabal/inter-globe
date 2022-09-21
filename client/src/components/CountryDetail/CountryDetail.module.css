@@ -1,0 +1,162 @@
+.allCont{
+  min-height: 25em;
+  max-height: 51.25em;
+  font-family: "Poppins", sans-serif;
+}
+
+.img {
+  width: auto;
+  height: auto;
+  min-width: 18.75em;
+  min-height: 12.5em;
+  max-width: 25em;
+  max-height: 25em;
+  margin-top: 1.25em;
+  border: #000 2px solid;
+}
+
+.all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 25em;
+  justify-content:space-evenly;
+  font-family: "Poppins", sans-serif;
+}
+
+.allInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+  min-height: 18.75em;
+  border-top: rgba(121, 121, 121, 0.73) 1px solid;
+  margin-top: 1.25em;
+  min-height: 12.5em;
+}
+
+.actSection h3{
+  margin-bottom: 0.625em;
+}
+
+.actName {
+  align-self: center;
+}
+
+.activities{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 3.75em;
+  align-items: left;
+  width: 40.625em;
+  height: 12.5em;
+  margin-right: 1.25em;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 12.5em;
+  align-content: center;
+  margin-left: 1.25em;
+  margin-bottom: 0.625em;
+  border:#000 1px solid;
+  border-radius: 0.625em;
+  text-indent: 0.625em;
+  height: 10.625em;
+} 
+
+.dato{
+  display: flex;
+  flex-direction: row;
+}
+
+.temps{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  height: 3.75em;
+}
+
+.datoTemp{
+  display: flex;
+  flex-direction: column;
+  height: 3.125em;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  gap: 0.625em;
+  margin-right: 1.875em;
+  white-space: nowrap;
+  margin-top: 1.25em;
+}
+
+.sectionBorder {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625em;
+  white-space: nowrap;
+  margin-top: 1.25em;
+}
+
+.data{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: rgba(121, 121, 121, 0.73) 1px solid;
+  max-height: 16.25em;
+}
+
+.datito{
+  transform: translate(0, 10%);
+}
+
+.datitoA {
+  transform: translate(0, -10%);
+  font-size: 0.875em;
+}
+
+.tem{
+  font-size: 0.875em;
+}
+
+.miniImg {
+  width: 1.5em;
+  height: 1em;
+}
+
+.border {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3125em;
+  cursor: pointer;
+  border: #000 0.125em solid;
+  padding: 0.1875em;
+  border-radius: 0.625em;
+}
+
+.border:hover {
+  text-decoration: underline;
+  background-color: rgb(80, 118, 153);
+  color: aliceblue;
+  transition: background 0.4s;
+}
+
+.borders {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.625em;
+  transform: translate(0, -10%);
+}
+
+.noLimit{
+  transform: translate(0, 20%);
+}

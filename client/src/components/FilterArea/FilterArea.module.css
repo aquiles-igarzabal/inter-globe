@@ -1,0 +1,66 @@
+.filterArea {
+  display: grid;
+  grid-template-columns: repeat(4, 12.5em);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.label{
+  color: rgb(48, 47, 47);
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  white-space: nowrap;
+}
+
+.contentSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.contentSelect {
+  max-width: 14em;
+  position: relative;
+  top: 15%;
+}
+.contentSelect select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.4375em 0.625em;
+  height: 2.625em;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #24407d;
+  color: rgb(215, 218, 222);
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid silver;
+  border-radius: 0.75em;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.contentSelect select:hover {
+  background: #5d6c8f;
+  transition: background 0.6s;
+}
+
+.contentSelect i {
+  position: absolute;
+  right: 1.25em;
+  top: calc(50% - 13px);
+  width: 1em;
+  height: 1em;
+  display: block;
+  border-left: 0.25em solid #278427;
+  border-bottom: 0.25em solid #278427;
+  transform: rotate(-45deg);
+  transition: all 0.25s ease;
+}
+
+.contentSelect:hover i {
+  margin-top: 0.1875eem;
+}
