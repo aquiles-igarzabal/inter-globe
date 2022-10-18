@@ -29,7 +29,7 @@ const {
 //         ssl: true,
 //       })
 
-const sequelize = new Sequelize(`postgres://countries_58wq_user:Uu9PXkPxpJPuGfNXZzpBsMq9r8iePGpc@dpg-cd7g19hgp3jgp4hh7j00-a/countries_58wq`, {
+const sequelize = new Sequelize(`postgresql://postgres:4zwT4kcTCxHkKD3l7utH@containers-us-west-93.railway.app:6317/railway`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   dialectOptions: {
